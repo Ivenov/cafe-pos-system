@@ -1,0 +1,13 @@
+{
+    "name": "project",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "postcss input.css -o output.css",
+        "watch": "postcss input.css -o output.css --watch"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.0.0",
+        "postcss": "^8.0.0",
+        "autoprefixer": "^10.0.0"
+    }
+}
